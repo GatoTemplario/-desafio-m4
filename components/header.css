@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    color: white;
+    height: 100%;
+    margin: 0px;
+}
+.header__container-background-image{
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header__background-image{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.header__upper-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+    height: 90px;
+
+}
+.header__logo{
+    font-family: "Orbitron";
+    font-size: 30px;
+    margin: 0px;
+    text-decoration: none;
+    color: inherit;
+}
+@media(min-width:769px){
+    .header__logo{
+        font-size: 48px;
+    }
+}
+.header__menu{
+    display: initial;
+    margin-top: 20px;
+}
+.header__container-main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: calc((100vh) - 110px);
+    font-family: "Montserrat";
+}
+.header__title{
+    font-size: 48px;
+    margin: 0px;
+    display: flex;
+    flex-grow: 0.60;
+    align-items: flex-end;
+}
+.header__p{
+    display: flex;
+    flex-grow: 1;
+    margin: 0px;
+    font-size: 32px;
+    
+    align-items: baseline;
+}

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.menu-header{
+    width: 100%;
+}
+@media(min-width: 769px){
+    .menu-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+.menu-header__boton{
+    width: 36px;
+    display: grid;
+    gap: 6px;
+}
+@media(min-width: 769px){
+    .menu-header__boton{
+        display: none;
+    }
+}
+.menu-header__rectangulo{
+    height: 6px;
+    background-color: rgb(224, 224, 224)
+}
+.menu-header-desplegado{
+    display: none;
+    font-family: "Montserrat";
+    font-size: 48px;
+    background-color: black;
+    height: 100vh;
+    
+    position: absolute;
+    /* z-index: 2; */
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+@media(min-width: 769px){
+    .menu-header-desplegado{
+        display: flex;
+        flex-direction: row;
+        
+        background-color: rgb(255, 255, 255, 0);
+        font-size: 24px;
+        position: static;
+        width: fit-content;
+        height: auto;
+        
+        text-align: end;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+
+.menu-header-desplegado__container-boton-cerrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+@media(min-width: 769px){
+    .menu-header-desplegado__container-boton-cerrar{
+        display: none;
+    }
+}
+.menu-header-desplegado__boton-cerrar{
+    font-family: "Orbitron";
+    color: rgb(224, 224, 224);
+    margin: 0px;
+    width: 61px;
+    height: 61px;
+    text-align: center;
+}
+.menu-header-desplegado__container-links{
+    height: calc((100vh) - 100px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    margin: 0px;
+}
+@media(min-width: 769px){
+    .menu-header-desplegado__container-links{
+        height: 36px;
+        width: 451px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin: 24px;
+    }
+}
+.menu-header-desplegado__link{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    margin: 58px;
+}
+@media(min-width: 769px){
+    .menu-header-desplegado__link{
+        display: inherit;
+        margin: 0px;
+    }
+}
