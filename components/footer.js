@@ -7,15 +7,15 @@ function importFooter(el){
         <div class="footer__container-redes-sociales">
             <div class="footer__red-social">
                 <a href="" class="footer__red-social-link">Instagram</a>
-                <img src="../Images/instagram.svg" alt="" class="footer__red-social-logo">
+                <img src="./Images/instagram.svg" alt="" class="footer__red-social-logo">
             </div>
             <div class="footer__red-social">
                 <a href="" class="footer__red-social-link">Linkedin</a>
-                <img src="../Images/linkedin.svg" alt="" class="footer__red-social-logo">
+                <img src="./Images/linkedin.svg" alt="" class="footer__red-social-logo">
             </div>
             <div class="footer__red-social">
                 <a href="" class="footer__red-social-link">Github</a>
-                <img src="../Images/github.svg" alt="" class="footer__red-social-logo">
+                <img src="./Images/github.svg" alt="" class="footer__red-social-logo">
             </div>
         </div>
     </div>

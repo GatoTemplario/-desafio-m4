@@ -26,9 +26,9 @@ function importMenu(el){
                 <span class="menu-header-desplegado__boton-cerrar">X</span>
             </div>
                 <div class="menu-header-desplegado__container-links">
-                    <a href="../portfolio.html" class="menu-header-desplegado__link">Portfolio</a>
-                    <a href="../servicios.html" class="menu-header-desplegado__link">Servicios</a>
-                    <a href="../contactos.html" class="menu-header-desplegado__link">Contacto</a>
+                    <a href="./portfolio.html" class="menu-header-desplegado__link">Portfolio</a>
+                    <a href="./servicios.html" class="menu-header-desplegado__link">Servicios</a>
+                    <a href="./contactos.html" class="menu-header-desplegado__link">Contacto</a>
                 </div>
         </div>
     </div>
